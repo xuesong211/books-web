@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
-    "dev": "vinext dev",
+    "dev": "vinext dev --host 127.0.0.1 --port 44000",
     "build": "vinext build",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
